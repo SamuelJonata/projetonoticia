@@ -64,7 +64,8 @@ main {
 }
 
 .content-tag {
-    display: inline-block;
+    width: max-content;
+    display: inline;
     background-color: var(--brand-color-dark);
     padding: 4px 8px;
     border-radius: 4px;

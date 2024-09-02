@@ -1,27 +1,31 @@
-#primary {
-    padding-block: 20px;
-
-    div:nth-child(2) {
-      margin-inline: auto;
+header {
+    #primary {
+        padding-block: 20px;
+    
+        div:nth-child(2) {
+          margin-inline: auto;
+        }
     }
+    
+    div {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+    }
+    
+    div:nth-chiçd(3) {
+        justify-self: end;
+    }
+    
+    #secondary {
+        padding-block: 14px;
+        border: solid 1px var(--stroke-color);
+        border-inline: none;
+        justify-content: space-between;
+    
+    }
+       
+    /*div:nth-child nesting css */
+
 }
 
-div {
- display: flex;
- align-items: center;
- gap: 8px;
-}
-
-div:nth-chiçd(3) {
-    justify-self: end;
-}
-
-#secondary {
-    padding-block: 14px;
-    border: solid 1px var(--stroke-color);
-    border-inline: none;
-    justify-content: space-between;
-
-}
-   
-/*div:nth-child nesting css */
